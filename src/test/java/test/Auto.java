@@ -10,7 +10,7 @@ public class Auto{
     int registro;
     static int cantidadCreados;
 
-    int cantiadAsientos(){
+    int cantidadAsientos(){
 
         return this.asientos.length;
     }
@@ -33,7 +33,7 @@ public class Auto{
                 return "Auto original";
             }
             else{
-                
+
                 return "Las piezas no son originales";
             }
             
