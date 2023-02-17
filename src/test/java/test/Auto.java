@@ -32,7 +32,7 @@ public class Auto{
 
             for (int i=0;i<this.asientos.length;i++){
 
-                if(this.asientos[i].registro!=this.registro){
+                if(this.asientos[i].registro!=this.registro && this.asientos[i]!=null){
 
                     aux=1;
                 }
